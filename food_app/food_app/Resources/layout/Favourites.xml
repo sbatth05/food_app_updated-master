@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:id="@+id/imgFavs" />
+    <TextView
+        android:text="Name of food item"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNamefavs"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.2"
+        android:textColor="@android:color/black" />
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/singfavs"
+        android:layout_weight="1">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:id="@+id/txtIngredientsfavs"
+            android:hint="List of Ingredients:"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black" />
+    </ScrollView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnlayoutfavs"
+        android:layout_weight="0.4">
+        <Button
+            android:text="Go to Recipe"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btnToRecipe"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>
+

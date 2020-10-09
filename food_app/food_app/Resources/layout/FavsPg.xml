@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@drawable/green">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="84.0dp"
+        android:id="@+id/linearLayout1"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imgbtnFavspg"
+            android:layout_gravity="left" />
+        <TextView
+            android:text="You don't have any favourites. Please add a favourite."
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/txtNameFavspg"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+</LinearLayout>
